@@ -1,3 +1,13 @@
+# 🧠 What Are Abstract Design Patterns?
+# These are patterns that use abstract classes or interfaces/protocols to:
+# Define contracts (what must be implemented)
+# Allow interchangeable behaviors (polymorphism)
+# Support dependency inversion and loose coupling
+
+# Abstract Factory	| Creates families of related objects without
+#                     specifying their concrete classes
+
+
 from abc import ABC, abstractmethod
 
 from typing import Protocol
